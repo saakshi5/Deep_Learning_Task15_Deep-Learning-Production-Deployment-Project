@@ -1,0 +1,58 @@
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: incident-ui
+  labels:
+    app: incident-ui
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: incident-ui
+  template:
+    metadata:
+      labels:
+        app: incident-ui
+    spec:
+      containers:
+        - name: ui
+          image: incident-ui:1.0
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8501
+          env:
+            - name: API_URL
+              value: "http://incident-api:5000"
+          readinessProbe:
+            httpGet:
+              path: /_stcore/health
+              port: 8501
+            initialDelaySeconds: 15
+            periodSeconds: 10
+          livenessProbe:
+            httpGet:
+              path: /_stcore/health
+              port: 8501
+            initialDelaySeconds: 30
+            periodSeconds: 20
+          resources:
+            requests:
+              cpu: "100m"
+              memory: "256Mi"
+            limits:
+              cpu: "500m"
+              memory: "1Gi"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: incident-ui
+spec:
+  selector:
+    app: incident-ui
+  ports:
+    - port: 8501
+      targetPort: 8501
+      nodePort: 30081
+  type: NodePort

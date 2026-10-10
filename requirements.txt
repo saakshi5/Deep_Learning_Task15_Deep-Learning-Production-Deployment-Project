@@ -1,0 +1,10 @@
+
+tensorflow==2.16.2
+numpy<2
+pandas
+scikit-learn
+matplotlib
+flask
+streamlit
+requests
+gunicorn

@@ -1,0 +1,101 @@
+text,label
+wifi is disconnected and internet is not working,Network
+cannot connect to the office network,Network
+vpn connection keeps dropping,Network
+network is very slow today,Network
+router is not responding,Network
+unable to access websites on company network,Network
+ethernet connection has no internet,Network
+dns lookup failed on internal portal,Network
+video calls freeze due to network issues,Network
+network cable is unplugged,Network
+cannot reach the server over network,Network
+wireless signal keeps disconnecting,Network
+internet connection times out,Network
+vpn fails to connect,Network
+network latency is high,Network
+shared network drive is unreachable,Network
+packet loss during remote meeting,Network
+office wifi has no internet access,Network
+ip address conflict on my laptop,Network
+proxy connection is failing,Network
+laptop will not power on,Hardware
+keyboard keys are not working,Hardware
+monitor screen is flickering,Hardware
+printer has a paper jam,Hardware
+computer fan is making loud noise,Hardware
+mouse is not responding,Hardware
+laptop battery is not charging,Hardware
+external monitor is not detected,Hardware
+desktop keeps overheating,Hardware
+headset microphone is broken,Hardware
+printer is not printing pages,Hardware
+laptop screen is cracked,Hardware
+usb port does not detect my device,Hardware
+computer randomly shuts down,Hardware
+webcam is not detected,Hardware
+docking station is not working,Hardware
+hard drive makes clicking sounds,Hardware
+keyboard is typing wrong keys,Hardware
+monitor has no display,Hardware
+printer reports a hardware error,Hardware
+application crashes when I open it,Software
+software installation failed,Software
+program freezes after login,Software
+spreadsheet application will not start,Software
+browser keeps closing unexpectedly,Software
+cannot update desktop application,Software
+application shows an unexpected error,Software
+software is running very slowly,Software
+email client crashes on startup,Software
+database application fails to launch,Software
+app update is stuck,Software
+program displays a blank screen,Software
+document editor cannot save files,Software
+application is not responding,Software
+plugin causes browser to crash,Software
+software license activation error,Software
+application cannot open a file,Software
+failed to install the latest patch,Software
+screen sharing application crashes,Software
+program has corrupted settings,Software
+suspicious email asks me to click a link,Security
+possible phishing email received,Security
+antivirus detected malware on my computer,Security
+I clicked a suspicious attachment,Security
+account may have been compromised,Security
+unusual login alert from another country,Security
+possible ransomware warning on workstation,Security
+browser redirected to a suspicious website,Security
+unexpected password reset email received,Security
+security software is disabled unexpectedly,Security
+someone is asking for my verification code,Security
+suspicious file appeared on desktop,Security
+unauthorized access alert received,Security
+email attachment looks malicious,Security
+computer may be infected with a virus,Security
+unknown login activity on my account,Security
+possible data leak in shared folder,Security
+phishing page requested my credentials,Security
+unexpected multi factor authentication prompts,Security
+report a suspected security incident,Security
+please reset my account password,Access
+locked out of my company account,Access
+request access to the finance folder,Access
+cannot sign in to employee portal,Access
+permission denied when opening shared documents,Access
+new employee needs an account,Access
+my account is locked after failed logins,Access
+need access to project management tool,Access
+multi factor authentication setup help,Access
+forgot my login password,Access
+request administrator permission for software,Access
+access denied to internal dashboard,Access
+employee account creation request,Access
+need to change my account permissions,Access
+cannot log in after password change,Access
+request access to a shared mailbox,Access
+my user account has been disabled,Access
+need VPN account access approval,Access
+unable to authenticate to the portal,Access
+please unlock my user account,Access
